@@ -1,0 +1,11 @@
+<!-- Will attempt if/when 2 player game is functional -->
+- Create game board array (3x3 array)
+- Function to check for the winner
+- Function to restart the game
+- Function to draw text on the game board
+- Function to control AI behavior
+  - Take as argument the state of the board & the current player
+  - Loop through each cell
+    - If the current value of a move is greater than the next value for the AI, take the move.
+    - If the current value of move is less than the next value for the other player, take the move.
+  - Return the move and the next board state.
